@@ -1,5 +1,5 @@
 import React from 'react'
-import About from '../assets/About.gif'
+import About from '../assets/about.gif'
 
 function AboutPage() {
   return (
