@@ -2,7 +2,7 @@ import React from 'react'
 
 function Contact() {
   return (
-    <div className='p-8 px-4 md:px-28 gap-8 flex justify-center items-center flex-col md:flex-row'>
+    <div className='p-8 px-4 md:px-30 gap-8 flex justify-center items-center flex-col md:flex-row'>
       <div className='w-full md:w-1/2'>
         <h1 className='text-4xl font-bold my-4'>Let's get in touch!</h1>
         <span className='text-gray-700 text-lg'>Got questions about GoGetWell.AI? Our team is here to help. Contact us for quick and friendly support.</span>

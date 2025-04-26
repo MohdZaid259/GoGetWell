@@ -11,7 +11,7 @@ function home() {
 
       <div className='flex flex-col text-white p-4 mt-36'>
         <span className='text-[#63559A] font-semibold text-2xl lg:text-4xl'>AI Front Office</span>
-        <span className='text-white font-semibold text-2xl lg:text-4xl'>For Healthcare Agents</span>
+        <span className='text-white font-bold text-2xl lg:text-4xl'>For Healthcare Agents</span>
 
         {status && <Modal props={setStatus}/>}
 

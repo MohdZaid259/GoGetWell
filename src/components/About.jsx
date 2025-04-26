@@ -3,7 +3,7 @@ import About from '../assets/about.gif'
 
 function AboutPage() {
   return (
-    <div className='flex justify-center items-center lg:flex-row flex-col py-12 lg:py-24 lg:px-10 px-4'>
+    <div className='flex justify-center items-center lg:flex-row flex-col py-12 lg:px-10 px-4'>
       <div className='lg:w-1/2 flex justify-center items-center'>
         <img className='w-96 ' src={About} alt="aboutgif" />
       </div>

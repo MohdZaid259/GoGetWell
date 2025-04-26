@@ -3,7 +3,7 @@ import Challenge from '../assets/challenge.gif'
 
 function ChallengesPage() {
   return (
-    <div className='flex justify-center items-center lg:flex-row flex-col py-12 lg:py-24 lg:px-10 px-4'>
+    <div className='flex justify-center items-center lg:flex-row flex-col py-12 lg:px-10 px-4'>
       <div className='lg:w-1/2 flex justify-center items-center'>
         <img className='w-96' src={Challenge} alt="aboutgif" />
       </div>
@@ -15,7 +15,7 @@ function ChallengesPage() {
         <span className='text-gray-800 text-sm inline-block lg:w-[80%]'>Medical tourism, especially in India, is plagued by disorganization and inefficiency. Facilitators often rely on outdated methods, leading to delayed bookings, inadequate patient support, and missed growth opportunities.</span>
         <span className='mt-4 mb-4 text-gray-800 text-sm inline-block lg:w-[90%]'>Our platform addresses these pain points by streamlining lead management and improving operational efficiency for facilitators and hospitals alike.</span>
 
-        <div className='flex justify-start lg:gap-24 gap-2 items-center flex-wrap lg:w-[80%]'>
+        <div className='flex justify-start lg:gap-24 gap-2 items-center flex-wrap mb-10 lg:w-[80%]'>
           <div className='flex justify-center items-center'>
             <div className='p-3 rounded-md bg-blue-100 max-w-max mr-4'>
               <svg class="w-6 h-6 text-primary" fill="none" stroke='#63559A' viewBox="0 0 24 24"><path strokelinecap="round" strokelinejoin="round" strokewidth="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
@@ -31,7 +31,7 @@ function ChallengesPage() {
             </div>
             <div className='flex flex-col mt-2'>
               <span className='text-xl font-semibold'>Enhanced Support</span>
-              <span className='text-sm text-gray-800'>Improved patient communication</span>
+              <span className='text-sm text-gray-800'>Improved patient <br/> communication</span>
             </div>
           </div>
         </div>

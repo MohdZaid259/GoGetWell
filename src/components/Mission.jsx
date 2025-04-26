@@ -3,7 +3,7 @@ import Mission from '../assets/mission.gif'
 
 function MissionPage() {
   return (
-    <div className='flex justify-center items-center lg:flex-row flex-col-reverse py-12 lg:py-24 px-4 lg:px-10'>
+    <div className='flex justify-center items-center lg:flex-row flex-col-reverse py-12 px-4 lg:px-10'>
       <div className='lg:flex-1/2 mt-8 lg:mt-8 lg:mx-24'>
         <h1 className='text-3xl font-bold'>Our Mission</h1>
         <div class="h-1 w-20 bg-purple-900 opacity-80 rounded-full mt-2 mb-4"></div>
@@ -33,8 +33,8 @@ function MissionPage() {
         </div>
       </div>
 
-      <div className='flex-1/2 flex justify-center items-center'>
-        <img className='w-[400px] rounded-md' src={Mission} alt="aboutgif" />
+      <div className='flex-1/2 lg:pr-36 flex justify-center items-center'>
+        <img className='w-[450px] rounded-md' src={Mission} alt="aboutgif" />
       </div>
     </div>
   )
