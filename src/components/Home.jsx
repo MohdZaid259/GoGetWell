@@ -6,8 +6,10 @@ function home() {
   const [status,setStatus]=useState(false)
 
   return (
-    <div className={`bg-[#01052F] w-screen h-screen ${status?'bg-black':''}`}>
+    <div className={`bg-[#01052F] w-screen h-screen `}>
       <Nav props={setStatus}/>
+
+      {status && <div className='w-screen h-screen absolute inset-0 bg-black/60 backdrop-blur-xs'></div>}
 
       <div className='flex flex-col text-white p-4 mt-36'>
         <span className='text-[#63559A] font-semibold text-2xl lg:text-4xl'>AI Front Office</span>
